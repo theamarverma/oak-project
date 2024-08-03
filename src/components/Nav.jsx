@@ -21,7 +21,10 @@ const Nav = () => {
 			<nav className=" flex justify-end">
 				<div className=" space-x-10 font-medium hidden sm:flex items-center">
 					<NavLinks />
-					<Button />
+					<Button
+						title="Book a Demo"
+						varient="py-2 px-4"
+					/>
 				</div>
 
 				<div className="sm:hidden">

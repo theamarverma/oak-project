@@ -1,0 +1,24 @@
+<div className="gap-4 flex flex-col border border-red-500 w-full max-w-4xl p-4">
+					<strong className="text-4xl md:text-5xl lg:text-7xl p-4 text-white text-center">
+						Automated Energy Reporting from £99/month
+					</strong>
+					<div className="text-base md:text-lg lg:text-xl text-white text-center">
+						OAK does all the data compiling and analysis for your Compliance
+						reporting related to energy! We help you achieve your compliance
+						requirements, all whilst saving you money! With OAK your business
+						can save up to 30% in energy costs.
+					</div>
+					<div className="text-base md:text-lg lg:text-xl text-white text-center">
+						Book a Demo now to learn more, or why not use our Compliance
+						Requirement Tool to discover what measures/legislation you may need
+						to report on?
+					</div>
+					<div className="mt-6  gap-4 flex">
+						<button className="bg-[#1ed6fe] hover:bg-blue-700 text-black font-bold py-6 px-4 rounded">
+							Book a Demo
+						</button>
+						<button className="bg-gray-800 hover:bg-gray-700 text-white border border-white font-bold py-2 px-4 rounded">
+							Compliance Requirement Tool
+						</button>
+					</div>
+				</div>
