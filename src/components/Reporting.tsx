@@ -37,9 +37,9 @@ const Reporting: React.FC = () => {
 			</div>
 			<div className="h-[430px] w-[1304px] grid grid-cols-2 items-center p-10 text-black mt-6 bg-[#eff4f8] rounded-xl">
 				<div className="left flex flex-col gap-4">
-					<heading className="text-3xl font-semibold">
+					<h1 className="text-3xl font-semibold">
 						Access to OAK Lite Dashboard
-					</heading>
+					</h1>
 					<div className="flex-wrap w-[400px]">
 						Monitor Key Performance Indicators (KPIs), identify trends, spot
 						process and operational issues. Make the best data-driven decisions
