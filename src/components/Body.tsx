@@ -1,21 +1,22 @@
+import React from 'react';
 import Benefits from './Benefits';
 import Button from './Button';
 import CompilanceSimplified from './CompilanceSimplified';
 import InDepthMonitor from './InDepthMonitor';
 
-const Body = () => {
+const Body: React.FC = () => {
 	return (
 		<>
-			<div className="h-full bg-black ">
-				<div className="w-[1300px]  mx-60  ">
-					<div className="gap-4 mx-52 flex justify-center items-center flex-col  w-full max-w-4xl p-4 ">
+			<div className="h-full bg-black">
+				<div className="w-[1300px] mx-60">
+					<div className="gap-4 mx-52 flex justify-center items-center flex-col w-full max-w-4xl p-4">
 						<strong className="text-4xl mt-32 md:text-5xl lg:text-7xl p-4 text-white text-center">
 							Automated Energy Reporting from £99/month
 						</strong>
 						<div className="text-base md:text-lg lg:text-xl text-white text-center">
-							OAK does all the data compiling and analysis for your Compliance
+							OAK does all the data compiling and analysis for your compliance
 							reporting related to energy! We help you achieve your compliance
-							requirements, all whilst saving you money! With OAK your business
+							requirements, all whilst saving you money! With OAK, your business
 							can save up to 30% in energy costs.
 						</div>
 						<div className="text-base md:text-lg lg:text-xl text-white text-center">
@@ -23,7 +24,7 @@ const Body = () => {
 							Requirement Tool to discover what measures/legislation you may
 							need to report on?
 						</div>
-						<div className="mt-6  gap-4 flex">
+						<div className="mt-6 gap-4 flex">
 							<Button
 								title="Book a Demo"
 								varient="py-6 px-8"
@@ -34,7 +35,7 @@ const Body = () => {
 						</div>
 					</div>
 
-					<div className="relative flex mt-32 items-center justify-center ml-10 ">
+					<div className="relative flex mt-32 items-center justify-center ml-10">
 						<img
 							className="relative main-img object-cover"
 							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b2a0448f71021552f9842_OAK%20Network%20Hero%20Image-p-1080.webp"
@@ -42,7 +43,7 @@ const Body = () => {
 						/>
 						<div>
 							<img
-								className=" p-2 absolute -top-36 -right-16 object-cover h-[190px] w-[200px] z-20 rounded-lg"
+								className="p-2 absolute -top-36 -right-16 object-cover h-[190px] w-[200px] z-20 rounded-lg"
 								src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66aba0c6621b06f03479a4d4_Consumption%20per%20unit-p-500.png"
 								alt="Top-Right Image"
 							/>

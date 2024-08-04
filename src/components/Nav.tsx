@@ -1,25 +1,29 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Button from './Button';
-const NavLinks = () => {
+
+const NavLinks: React.FC = () => {
 	return (
 		<>
-			<a href="">Pricing </a>
-			<a href="">Energy Management System</a>
-			<a href="">Contact</a>
-			<a href=""> Blog</a>
+			<a href="#">Pricing</a>
+			<a href="#">Energy Management System</a>
+			<a href="#">Contact</a>
+			<a href="#">Blog</a>
 		</>
 	);
 };
-const Nav = () => {
-	const [isOpen, setIsOpen] = useState(false);
+
+const Nav: React.FC = () => {
+	const [isOpen, setIsOpen] = useState<boolean>(false);
+
 	const toggleHandler = () => {
-		setIsOpen(!isOpen);
+		setIsOpen((prev) => !prev);
 	};
+
 	return (
 		<>
-			<nav className=" flex justify-end">
-				<div className=" space-x-10 font-medium hidden sm:flex items-center">
+			<nav className="flex justify-end">
+				<div className="space-x-10 font-medium hidden sm:flex items-center">
 					<NavLinks />
 					<Button
 						title="Book a Demo"
