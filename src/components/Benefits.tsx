@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import Button from './Button';
 import Live from './Live';
 import Reporting from './Reporting';
 
 const Benefits: React.FC = () => {
+	const [activeComponent, setActiveComponent] = useState<string>('reporting'); // Default to 'reporting'
+
+	const handleClick = (component: string) => {
+		setActiveComponent(component);
+	};
+
+	const getButtonClasses = (component: string) => {
+		return `p-2 h-12 w-44 rounded ${
+			activeComponent === component ? 'bg-cyan-500' : 'bg-[#e3f3f8] text-black'
+		}`;
+	};
+
 	return (
 		<>
 			<div className="bg-white h-screen mx-60">
@@ -20,13 +31,21 @@ const Benefits: React.FC = () => {
 					</div>
 				</div>
 				<div className="flex justify-center items-center mt-6">
-					<button className="bg-cyan-500 p-2 h-12 w-44 rounded-lg">
+					<button
+						onClick={() => handleClick('reporting')}
+						className={getButtonClasses('reporting')}
+					>
 						Reporting
 					</button>
-					<button className="bg-cyan-500 p-2 h-12 w-40 rounded-lg">Live</button>
+					<button
+						onClick={() => handleClick('live')}
+						className={getButtonClasses('live')}
+					>
+						Live
+					</button>
 				</div>
-				{/* <Reporting /> */}
-				<Live />
+				{activeComponent === 'reporting' && <Reporting />}
+				{activeComponent === 'live' && <Live />}
 			</div>
 		</>
 	);

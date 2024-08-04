@@ -3,7 +3,7 @@ import React from 'react';
 const Reporting: React.FC = () => {
 	return (
 		<>
-			<div className="grid grid-cols-2 mt-9 space-x-12">
+			<div className="grid grid-cols-2 mt-9 gap-12">
 				<div className="card1 w-[640px] h-[760px] bg-[#eff4f8] p-11 rounded-xl text-black gap-7 flex justify-center flex-col">
 					<strong className="text-2xl">Compliance Reporting</strong>
 					<p className="text-xl text-gray-500">
