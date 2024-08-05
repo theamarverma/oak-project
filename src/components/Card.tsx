@@ -21,7 +21,7 @@ const Card = ({
 }: CardProps) => {
 	return (
 		<div
-			className={`flex flex-col justify-between ${bg} rounded-xl p-6 shadow-lg w-full max-w-full md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px]`}
+			className={`flex flex-col justify-center md:min-w-[500px] ${bg} rounded-xl p-6 shadow-lg  `}
 		>
 			<div className="flex flex-col gap-4">
 				<strong className={`text-2xl ${titleColor}`}>{title}</strong>
