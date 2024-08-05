@@ -23,7 +23,7 @@ const Live: React.FC = () => {
 
 	const SingleImageComp = (
 		<img
-			className="relative border border-white"
+			className="absolute hidden md:block z-20 top-10 right-4 border border-white"
 			src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6508a103fb2e7ea2e2a87b19_OAK%20Alert%20Email%20Notif%203.webp"
 			alt="Alert Notification"
 			width={220}
@@ -33,10 +33,10 @@ const Live: React.FC = () => {
 
 	const BottomImageComp = (
 		<img
-			className="relative rounded-xl"
+			className="absolute right-2 -bottom-16 rounded-xl"
 			src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651c07be6e86b99679f53524_OAK%20Multi%20Site%20Accent-p-500.webp"
 			alt="Highlighted Sites"
-			width={350}
+			width={250}
 			height={230}
 		/>
 	);
