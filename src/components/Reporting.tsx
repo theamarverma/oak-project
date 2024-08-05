@@ -13,7 +13,7 @@ const Reporting: React.FC = () => {
 						src=""
 						alt="Compliance Reporting Screenshot"
 					/> */}
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-32 mt-9">
+			<div className="grid grid-cols-1 md:grid-cols-2 md:gap-32 mt-9">
 				<Card
 					bg="bg-[#eff4f8]"
 					title="Compliance Reporting"

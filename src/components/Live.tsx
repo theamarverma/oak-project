@@ -43,7 +43,7 @@ const Live: React.FC = () => {
 
 	return (
 		<div className="w-full max-w-[1304px] mx-auto ">
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-32 mt-9">
+			<div className="grid grid-cols-1 md:grid-cols-2 md:gap-32 gap-8 mt-9">
 				<Card
 					title="All the Reporting+ benefits"
 					desc="Our esteemed multi-site clients benefit from the entire feature set of the single-site plans."
@@ -63,7 +63,7 @@ const Live: React.FC = () => {
 					imgSize="w-full h-auto"
 				/>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-32 mt-9">
+			<div className="grid grid-cols-1 md:grid-cols-2  md:gap-32 gap-8  mt-9">
 				<Card
 					title="Predictive Maintenance"
 					desc="Get notifications when your equipment needs maintenance to prevent unexpected costly breakdowns potentially causing thousands of £££ in lost revenue."
@@ -80,7 +80,7 @@ const Live: React.FC = () => {
 					imgSize="w-full h-auto"
 				/>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-32 mt-9">
+			<div className="grid grid-cols-1 md:grid-cols-2  md:gap-32 gap-8 mt-9">
 				<Card
 					title="Excessive Usage Alerts"
 					desc="Receive alerts whenever your consumption exceeds normal levels and keep up-to-date with the performance of your business."
@@ -98,7 +98,7 @@ const Live: React.FC = () => {
 					imgSize="w-full h-auto"
 				/>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-32 mt-9">
+			<div className="grid grid-cols-1 md:grid-cols-2  md:gap-32 gap-8  mt-9">
 				<Card
 					title="Multi-Site Comparison"
 					desc="Central Dashboard to manage all of your portfolios in one place."

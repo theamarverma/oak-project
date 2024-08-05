@@ -7,6 +7,7 @@ import Modal from './Modal';
 import { Play } from 'lucide-react';
 import Partners from './Partners';
 import Demo from './Demo';
+import Article from './Article';
 
 const Body: React.FC = () => {
 	return (
@@ -73,6 +74,7 @@ const Body: React.FC = () => {
 				<Partners />
 			</div>
 			<Demo />
+			<Article />
 		</>
 	);
 };
