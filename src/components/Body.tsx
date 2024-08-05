@@ -10,9 +10,9 @@ const Body: React.FC = () => {
 	return (
 		<>
 			<div className="bg-black">
-				<div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
+				<div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex flex-col items-center text-center gap-4 py-12">
-						<strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
+						<strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-24">
 							Automated Energy Reporting from £99/month
 						</strong>
 						<div className="text-sm sm:text-base md:text-lg lg:text-xl text-white">
@@ -33,24 +33,23 @@ const Body: React.FC = () => {
 							/>
 						</div>
 					</div>
-
-					<div className="relative flex flex-col md:flex-row items-center justify-center mt-12 md:mt-24">
-						<img
-							className="object-cover w-full md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-lg"
-							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b2a0448f71021552f9842_OAK%20Network%20Hero%20Image-p-1080.webp"
-							alt="Main Image"
-						/>
-						<img
-							className="absolute top-4 right-4 w-32 h-32 md:w-48 md:h-48 z-10 rounded-lg"
-							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66aba0c6621b06f03479a4d4_Consumption%20per%20unit-p-500.png"
-							alt="Top-Right Image"
-						/>
-						<img
-							className="absolute bottom-4 left-4 w-40 h-40 md:w-64 md:h-64 z-10 rounded-lg"
-							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66ab9ef08a88240ab65739b7_Screenshot%202024-08-01%20at%2016.42.48-p-500.png"
-							alt="Bottom-Left Image"
-						/>
-					</div>
+				</div>
+				<div className="relative p-8 flex flex-col md:flex-row items-center justify-center mt-12  md:mt-24">
+					<img
+						className="object-cover w-full md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-lg"
+						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b2a0448f71021552f9842_OAK%20Network%20Hero%20Image-p-1080.webp"
+						alt="Main Image"
+					/>
+					<img
+						className="absolute -top-36 right-72 w-32 h-32 md:w-48 md:h-48 md:z-10 rounded-lg hidden md:block"
+						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66aba0c6621b06f03479a4d4_Consumption%20per%20unit-p-500.png"
+						alt="Top-Right Image"
+					/>
+					<img
+						className="absolute left-64 w-40 h-40 md:w-72 md:h-56 md:z-10 rounded-lg hidden md:block"
+						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66ab9ef08a88240ab65739b7_Screenshot%202024-08-01%20at%2016.42.48-p-500.png"
+						alt="Bottom-Left Image"
+					/>
 				</div>
 			</div>
 
@@ -65,7 +64,7 @@ const Body: React.FC = () => {
 				<Benefits />
 			</div>
 
-			<div className=" sm:px-6 lg:px-8 py-12 border-t border-gray-300">
+			<div className=" sm:px-6 lg:px-8 py-12 rounded-b-2xl bg-[#dbecf4]">
 				<Modal />
 			</div>
 		</>

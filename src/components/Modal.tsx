@@ -8,7 +8,7 @@ const Modal = () => {
 
 	return (
 		<>
-			<div className="flex flex-col justify-center items-center gap-5">
+			<div className="flex flex-col justify-center items-center  gap-5">
 				<h1 className="text-4xl font-semibold">How does OAK work ?</h1>
 
 				<h3 className="text-xl font-mono text-gradient">
@@ -17,13 +17,13 @@ const Modal = () => {
 				<div className="card flex justify-content-center">
 					<div className="relative h-full  w-full">
 						<img
-							className="object-cover  h-full w-full"
+							className="object-cover rounded-xl opacity-55 h-full w-full"
 							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/650a65507ae9354bd2a0887a_OAK%20Thumbnail.jpeg"
 							alt="video-modal"
 						/>
 						<div className=" z-40 inset-0  absolute items-center justify-center flex">
 							<Button
-								className=" h-32 bg-custom-gradient w-40 p-2 transform transition-transform duration-300 hover:scale-105 rounded-3xl flex justify-center items-center"
+								className=" h-32  bg-custom-gradient w-40 p-2 transform transition-transform duration-300 hover:scale-105 rounded-3xl flex justify-center items-center"
 								onClick={() => setVisible(true)}
 							>
 								<Play
