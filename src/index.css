@@ -21,7 +21,45 @@ blockquote,
 dl,
 dd {
 	margin: 0;
+}
+
+/* App.css or your main CSS file */
+.transparent-dialog .p-dialog-content {
+	background-color: transparent !important;
+}
+/* Custom styles for the button and modal */
+.custom-button {
+	background-color: #007bff;
+	border: none;
 	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.custom-button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid #007bff;
+}
+
+.transparent-dialog .p-dialog-content {
+	background-color: transparent !important;
+}
+
+.transparent-dialog .p-dialog-header {
+	background-color: transparent !important;
+	border: none;
+}
+
+.transparent-dialog .p-dialog {
+	border: none !important;
+	box-shadow: none !important;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */

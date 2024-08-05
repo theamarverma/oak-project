@@ -21,29 +21,20 @@ const Card = ({
 }: CardProps) => {
 	return (
 		<div
-			className={`card w-[659px] h-[642px] ${bg} rounded-xl text-black gap-7 flex justify-center flex-col`}
+			className={`flex flex-col justify-between ${bg} rounded-xl p-6 shadow-lg w-full max-w-full md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px]`}
 		>
-			<div className="flex justify-center flex-col gap-7 p-8">
-				<strong className={`text-3xl ${titleColor}`}>{title}</strong>
-
-				<p className="text-xl text-gray-500">{desc}</p>
+			<div className="flex flex-col gap-4">
+				<strong className={`text-2xl ${titleColor}`}>{title}</strong>
+				<p className="text-lg text-gray-600">{desc}</p>
 			</div>
-			<div className="parent relative mb-8">
+			<div className="relative mt-4">
 				<img
-					className={`object-cover ${imgSize} rounded-2xl`}
-					src={imageUrl} // Using imageUrl from props
+					className={`object-cover ${imgSize} rounded-lg`}
+					src={imageUrl}
 					alt="Card Image"
 				/>
-
-				<div className="child">
+				<div className="absolute inset-0 flex items-center justify-center">
 					{imgComp}
-					{/* <img
-						className="absolute right-5 top-6 border border-white"
-						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6508a103fb2e7ea2e2a87b19_OAK%20Alert%20Email%20Notif%203.webp"
-						alt="Alert Notification"
-						width={220}
-						height={74}
-					/> */}
 				</div>
 			</div>
 		</div>

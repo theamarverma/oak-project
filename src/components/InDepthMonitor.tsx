@@ -3,26 +3,26 @@ import Button from './Button';
 
 const InDepthMonitor: React.FC = () => {
 	return (
-		<div>
-			<div className="container mx-60 flex justify-center items-center bg-[#ecf9fb] h-[650px] px-14 py-6 w-[1300px] rounded-xl">
-				<div className="left-imgs relative top-16">
+		<div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+			<div className="flex flex-col lg:flex-row justify-center items-center bg-[#ecf9fb] rounded-xl p-6">
+				<div className="relative mb-8 lg:mb-0 lg:mr-8">
 					<img
-						className="object-cover rounded-2xl"
+						className="object-cover rounded-2xl w-full max-w-lg"
 						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b579e15d68b20ac1b9524_OAK%20Alert%20Graph.webp"
 						alt="OAK Alert Graph"
 					/>
-					<div>
-						<img
-							className="absolute left-96 bottom-52 rounded-2xl object-cover z-10 w-[230px] h-[200px]"
-							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b596d73077b1d4826ada8_OAK%20Recent%20Alerts.webp"
-							alt="OAK Recent Alerts"
-						/>
-					</div>
+					<img
+						className="absolute left-1/2 transform -translate-x-1/2 bottom-4 md:bottom-12 rounded-2xl object-cover z-10 w-[150px] h-[130px] md:w-[200px] md:h-[170px]"
+						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b596d73077b1d4826ada8_OAK%20Recent%20Alerts.webp"
+						alt="OAK Recent Alerts"
+					/>
 				</div>
 
-				<div className="right my-14 flex flex-col gap-3 p-9">
-					<div className="text-md font-mono">IN-DEPTH MONITORING</div>
-					<div className="text-5xl leading-[60px] font-semibold">
+				<div className="flex flex-col gap-4 p-4 lg:p-9 text-center lg:text-left">
+					<div className="text-sm sm:text-md font-mono text-gradient2">
+						IN-DEPTH MONITORING
+					</div>
+					<div className="text-3xl sm:text-4xl md:text-5xl leading-snug font-semibold text-gray-900">
 						Need more than just Reporting? Check out OAK Live.
 					</div>
 					<p className="text-gray-500 leading-8">
@@ -31,10 +31,12 @@ const InDepthMonitor: React.FC = () => {
 						predictive algorithm helps prevent unexpected consumption by
 						alerting you in advance, enabling savings of up to 30%.
 					</p>
-					<Button
-						title="Find Out More"
-						varient="py-6 px-10"
-					/>
+					<div className="mt-4">
+						<Button
+							title="Find Out More"
+							btnSize="py-4 px-8"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,56 +1,52 @@
 import React from 'react';
 import Benefits from './Benefits';
 import Button from './Button';
-import CompilanceSimplified from './CompilanceSimplified';
 import InDepthMonitor from './InDepthMonitor';
+import ComplianceSimplified from './ComplianceSimplified';
+import Modal from './Modal';
+import { Play } from 'lucide-react';
 
 const Body: React.FC = () => {
 	return (
 		<>
-			<div className="h-full bg-black">
-				<div className="w-[1300px] mx-60">
-					<div className="gap-4 mx-52 flex justify-center items-center flex-col w-full max-w-4xl p-4">
-						<strong className="text-4xl mt-32 md:text-5xl lg:text-7xl p-4 text-white text-center">
+			<div className="bg-black">
+				<div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8">
+					<div className="flex flex-col items-center text-center gap-4 py-12">
+						<strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
 							Automated Energy Reporting from £99/month
 						</strong>
-						<div className="text-base md:text-lg lg:text-xl text-white text-center">
+						<div className="text-sm sm:text-base md:text-lg lg:text-xl text-white">
 							OAK does all the data compiling and analysis for your compliance
 							reporting related to energy! We help you achieve your compliance
 							requirements, all whilst saving you money! With OAK, your business
 							can save up to 30% in energy costs.
 						</div>
-						<div className="text-base md:text-lg lg:text-xl text-white text-center">
+						<div className="text-sm sm:text-base md:text-lg lg:text-xl text-white">
 							Book a Demo now to learn more, or why not use our Compliance
 							Requirement Tool to discover what measures/legislation you may
 							need to report on?
 						</div>
-						<div className="mt-6 gap-4 flex">
+						<div className="mt-6">
 							<Button
 								title="Book a Demo"
-								varient="py-6 px-8"
+								btnSize="py-4 px-6"
 							/>
-							<button className="bg-gray-800 hover:bg-gray-700 text-white border border-white font-bold rounded-lg p-5">
-								Compliance Requirement Tool
-							</button>
 						</div>
 					</div>
 
-					<div className="relative flex mt-32 items-center justify-center ml-10">
+					<div className="relative flex flex-col md:flex-row items-center justify-center mt-12 md:mt-24">
 						<img
-							className="relative main-img object-cover"
+							className="object-cover w-full md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-lg"
 							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b2a0448f71021552f9842_OAK%20Network%20Hero%20Image-p-1080.webp"
 							alt="Main Image"
 						/>
-						<div>
-							<img
-								className="p-2 absolute -top-36 -right-16 object-cover h-[190px] w-[200px] z-20 rounded-lg"
-								src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66aba0c6621b06f03479a4d4_Consumption%20per%20unit-p-500.png"
-								alt="Top-Right Image"
-							/>
-						</div>
-
 						<img
-							className="absolute bottom-0 left-0 mb-4 ml-4 object-cover h-[250px] w-[300px] z-10 rounded-lg"
+							className="absolute top-4 right-4 w-32 h-32 md:w-48 md:h-48 z-10 rounded-lg"
+							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66aba0c6621b06f03479a4d4_Consumption%20per%20unit-p-500.png"
+							alt="Top-Right Image"
+						/>
+						<img
+							className="absolute bottom-4 left-4 w-40 h-40 md:w-64 md:h-64 z-10 rounded-lg"
 							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66ab9ef08a88240ab65739b7_Screenshot%202024-08-01%20at%2016.42.48-p-500.png"
 							alt="Bottom-Left Image"
 						/>
@@ -58,11 +54,20 @@ const Body: React.FC = () => {
 				</div>
 			</div>
 
-			<div className="h-full w-full bg-[#ced6da] text-black">
-				<CompilanceSimplified />
-				<InDepthMonitor />
+			<div className="bg-[#ced6da] text-black">
+				<div className="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
+					<ComplianceSimplified />
+					<InDepthMonitor />
+				</div>
 			</div>
-			<Benefits />
+
+			<div className="bg-white mx-auto max-w-[1300px] px-4 sm:px-6 lg:px-8 py-12">
+				<Benefits />
+			</div>
+
+			<div className=" sm:px-6 lg:px-8 py-12 border-t border-gray-300">
+				<Modal />
+			</div>
 		</>
 	);
 };

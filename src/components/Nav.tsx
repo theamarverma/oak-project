@@ -23,11 +23,11 @@ const Nav: React.FC = () => {
 	return (
 		<>
 			<nav className="flex justify-end">
-				<div className="space-x-10 font-medium hidden sm:flex items-center">
+				<div className="space-x-10 text-white font-medium hidden sm:flex items-center">
 					<NavLinks />
 					<Button
 						title="Book a Demo"
-						varient="py-2 px-4"
+						btnSize="py-2 px-4"
 					/>
 				</div>
 
