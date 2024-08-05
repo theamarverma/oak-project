@@ -33,7 +33,7 @@ const Live: React.FC = () => {
 
 	const BottomImageComp = (
 		<img
-			className="absolute right-2 -bottom-16 rounded-xl"
+			className="absolute hidden md:block right-2 -bottom-16 rounded-xl"
 			src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651c07be6e86b99679f53524_OAK%20Multi%20Site%20Accent-p-500.webp"
 			alt="Highlighted Sites"
 			width={250}
