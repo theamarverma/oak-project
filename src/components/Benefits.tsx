@@ -32,7 +32,7 @@ const Benefits: React.FC = () => {
 					provide actionable ways to save energy costs.
 				</p>
 			</div>
-			<div className="flex justify-center items-center mt-6 gap-4">
+			<div className="flex justify-center w-full items-center mt-6 gap-4">
 				<button
 					onClick={() => handleClick('reporting')}
 					className={getButtonClasses('reporting')}

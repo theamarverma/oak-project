@@ -3,6 +3,9 @@ import React from 'react';
 const Partners = () => {
 	return (
 		<>
+			<h1 className="flex justify-center items-center font-semibold text-4xl">
+				Partners
+			</h1>
 			<div className="grid grid-cols-3 md:grid-cols-6 p-16 gap-16 items-center grayscale">
 				<img
 					className=" "
@@ -15,7 +18,7 @@ const Partners = () => {
 					alt="greentech"
 				/>
 				<img
-					className="h-36 ml-10"
+					className="md:h-36 ml-10"
 					src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6502ff145aa9cdd684a0690c_ORB%20Member%20Partner%20Logo.webp"
 					alt="orb"
 				/>

@@ -5,6 +5,8 @@ import InDepthMonitor from './InDepthMonitor';
 import ComplianceSimplified from './ComplianceSimplified';
 import Modal from './Modal';
 import { Play } from 'lucide-react';
+import Partners from './Partners';
+import Demo from './Demo';
 
 const Body: React.FC = () => {
 	return (
@@ -67,6 +69,10 @@ const Body: React.FC = () => {
 			<div className=" sm:px-6 lg:px-8 py-12 rounded-b-2xl bg-[#dbecf4]">
 				<Modal />
 			</div>
+			<div className="w-full relative overflow-hidden bg-white p-8 ">
+				<Partners />
+			</div>
+			<Demo />
 		</>
 	);
 };
