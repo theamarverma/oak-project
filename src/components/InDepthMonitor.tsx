@@ -5,14 +5,14 @@ const InDepthMonitor: React.FC = () => {
 	return (
 		<div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
 			<div className="flex flex-col lg:flex-row justify-center items-center bg-[#ecf9fb] rounded-xl p-6">
-				<div className="relative mb-8 lg:mb-0 lg:mr-8">
+				<div className="relative mb-8 lg:mb-0 lg:mr-8 md:min-w-[500px]">
 					<img
 						className="object-cover rounded-2xl w-full max-w-lg"
 						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b579e15d68b20ac1b9524_OAK%20Alert%20Graph.webp"
 						alt="OAK Alert Graph"
 					/>
 					<img
-						className="absolute left-1/2 transform -translate-x-1/2 bottom-4 md:bottom-12 rounded-2xl object-cover z-10 w-[150px] h-[130px] md:w-[200px] md:h-[170px]"
+						className="absolute hidden md:block right-10 -top-24 shadow-md rounded-2xl object-cover z-10 w-[150px] h-[130px] md:w-[200px] md:h-[170px]"
 						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b596d73077b1d4826ada8_OAK%20Recent%20Alerts.webp"
 						alt="OAK Recent Alerts"
 					/>

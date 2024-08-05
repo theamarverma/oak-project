@@ -12,7 +12,7 @@ const Body: React.FC = () => {
 			<div className="bg-black">
 				<div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex flex-col items-center text-center gap-4 py-12">
-						<strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-24">
+						<strong className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-40">
 							Automated Energy Reporting from £99/month
 						</strong>
 						<div className="text-sm sm:text-base md:text-lg lg:text-xl text-white">
@@ -34,14 +34,14 @@ const Body: React.FC = () => {
 						</div>
 					</div>
 				</div>
-				<div className="relative p-8 flex flex-col md:flex-row items-center justify-center mt-12  md:mt-24">
+				<div className="relative p-10 flex flex-col md:flex-row items-center justify-center mt-12  md:mt-24">
 					<img
 						className="object-cover w-full md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-lg"
 						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/651b2a0448f71021552f9842_OAK%20Network%20Hero%20Image-p-1080.webp"
 						alt="Main Image"
 					/>
 					<img
-						className="absolute -top-36 right-72 w-32 h-32 md:w-48 md:h-48 md:z-10 rounded-lg hidden md:block"
+						className="absolute -top-28 right-80 w-32 h-32 md:w-48 md:h-48 md:z-10 rounded-lg hidden md:block"
 						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/66aba0c6621b06f03479a4d4_Consumption%20per%20unit-p-500.png"
 						alt="Top-Right Image"
 					/>

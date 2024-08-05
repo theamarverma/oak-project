@@ -4,7 +4,7 @@ import Button from './Button';
 const ComplianceSimplified: React.FC = () => {
 	return (
 		<div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+			<div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
 				<div className="flex flex-col gap-4">
 					<div className="text-sm sm:text-md font-mono text-gray-700">
 						COMPLIANCE SIMPLIFIED
