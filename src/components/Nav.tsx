@@ -39,7 +39,7 @@ const Nav: React.FC = () => {
 			</nav>
 			{/* for mobile hamburger menu */}
 			{isOpen && (
-				<div className="flex basis-full gap-2 flex-col items-center">
+				<div className="flex basis-full gap-2 flex-col text-white items-center">
 					<NavLinks />
 				</div>
 			)}

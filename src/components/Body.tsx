@@ -8,6 +8,8 @@ import { Play } from 'lucide-react';
 import Partners from './Partners';
 import Demo from './Demo';
 import Article from './Article';
+import { ArticleSwiper } from './ArticleSwiper';
+import Footer from './Footer';
 
 const Body: React.FC = () => {
 	return (
@@ -74,7 +76,8 @@ const Body: React.FC = () => {
 				<Partners />
 			</div>
 			<Demo />
-			<Article />
+			<ArticleSwiper />
+			<Footer />
 		</>
 	);
 };
