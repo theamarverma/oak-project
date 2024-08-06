@@ -87,23 +87,53 @@ const Footer = () => {
 						<div className="">
 							Copyright © 2024 OAK Network Ltd. All Rights Reserved
 						</div>
-						<div className="socials ">
-							<ul className="flex justify-center gap-2">
-								<a href="">
-									<XIcon />
-								</a>
-								<a href="">
-									<InstagramIcon />
-								</a>
-								<a href="">
-									<FacebookIcon />
-								</a>
-								<a href="">
-									<LinkedInIcon />
-								</a>
-								<a href="">
-									<YouTubeIcon />
-								</a>
+						<div className="mt-6">
+							<ul className="flex justify-center gap-4">
+								<li>
+									<a
+										href="https://twitter.com/TheOAKNetwork"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<XIcon className="w-6 h-6 text-[#919497] hover:text-[#03EFFE]" />
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.instagram.com/theoaknetwork/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<InstagramIcon className="w-6 h-6 text-[#919497] hover:text-[#03EFFE]" />
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.facebook.com/TheOakNetwork"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<FacebookIcon className="w-6 h-6 text-[#919497] hover:text-[#03EFFE]" />
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.linkedin.com/company/the-oak-network/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<LinkedInIcon className="w-6 h-6 text-[#919497] hover:text-[#03EFFE]" />
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.youtube.com/@theoaknetwork4096"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<YouTubeIcon className="w-6 h-6 text-[#919497] hover:text-[#03EFFE]" />
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
