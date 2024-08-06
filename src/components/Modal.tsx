@@ -53,7 +53,7 @@ const Modal = () => {
 						onHide={() => setVisible(false)}
 						className="transparent-dialog w-full h-full" // Custom class for additional styling if needed
 					>
-						<div className="md:flex justify-center flex-col items-center  h-full w-full">
+						<div className="flex justify-center flex-col items-center  h-full w-full">
 							<iframe
 								className="transform transition duration-300 md:min-h-[528px] md:min-w-[1000px]"
 								allowFullScreen={true}

@@ -31,7 +31,7 @@ export const ArticleSwiper = () => {
 							Browse our latest articles
 						</h1>
 						<div className="right">
-							<div className=" flex gap-8 mr-40">
+							<div className="hidden md:flex gap-8 mr-40">
 								<div>
 									<Button
 										className="w-16 h-16 bg-transparent hover:bg-[#41c9e8] border border-white "
@@ -54,9 +54,21 @@ export const ArticleSwiper = () => {
 						onSwiper={setSwiperRef}
 						slidesPerView="auto"
 						spaceBetween={16}
+						breakpoints={{
+							576: {
+								// width: 576,
+								slidesPerView: 2,
+							},
+							768: {
+								// width: 768,
+								slidesPerView: 1,
+							},
+						}}
+						scrollbar={{ draggable: true }}
+						loop={true}
 					>
 						<SwiperSlide>
-							<div className="flex flex-wrap md:flex-nowrap gap-4 ">
+							<div className="flex md:grid grid-cols-3 gap-4 ">
 								<ArticleCard
 									title="What are Scope 1, Scope 2, and Scope 3 Emissions?"
 									category="Energy"
@@ -78,7 +90,7 @@ export const ArticleSwiper = () => {
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
-							<div className="flex gap-4 ">
+							<div className="flex md:grid grid-cols-3 gap-4 ">
 								<ArticleCard
 									title="ESG Reporting: Everything Businesses Need to Know"
 									category="Energy"
@@ -101,6 +113,22 @@ export const ArticleSwiper = () => {
 						</SwiperSlide>
 						{/* Add more SwiperSlide components with more cards as needed */}
 					</Swiper>
+					<div className=" md:hidden flex mt-5 justify-center items-center w-full gap-8 mr-40">
+						<div>
+							<Button
+								className="w-16 h-16 bg-transparent hover:bg-[#41c9e8] border border-white "
+								icon="pi pi-arrow-left"
+								onClick={handlePrevious}
+							></Button>
+						</div>
+						<div>
+							<Button
+								className="w-16 h-16 bg-[#1FD5FE] "
+								icon="pi pi-arrow-right"
+								onClick={handleNext}
+							></Button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</>

@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Button from './Button';
+import { Link } from '@tanstack/react-router';
 
 const NavLinks: React.FC = () => {
 	return (
 		<>
-			<a href="#">Pricing</a>
-			<a href="#">Energy Management System</a>
-			<a href="#">Contact</a>
-			<a href="#">Blog</a>
+			<Link to="/pricing">Pricing</Link>
+			<Link to="/energy-management-system">Energy Management System</Link>
+			<Link to="/contact">Contact</Link>
+			<Link to="/blog">Blog</Link>
 		</>
 	);
 };
