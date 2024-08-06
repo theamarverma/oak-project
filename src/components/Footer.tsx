@@ -22,7 +22,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="border-b-2 border-b-[#656769] mb-6"></div>
-				<div className="grid grid-cols-1 md:grid-cols-5 gap-6 ml-4 p-4">
+				<div className="grid grid-cols-2 md:grid-cols-5 gap-6 ml-4 p-4">
 					<div className="flex flex-col gap-6 sitemap">
 						<strong className="text-2xl">Sitemap</strong>
 						<div className="border-b w-1/2 border-b-gray-500"></div>
