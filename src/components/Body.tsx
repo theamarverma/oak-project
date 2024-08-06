@@ -4,10 +4,10 @@ import Button from './Button';
 import InDepthMonitor from './InDepthMonitor';
 import ComplianceSimplified from './ComplianceSimplified';
 import Modal from './Modal';
-import { Play } from 'lucide-react';
+// import { Play } from 'lucide-react';
 import Partners from './Partners';
 import Demo from './Demo';
-import Article from './Article';
+// import Article from './Article';
 import { ArticleSwiper } from './ArticleSwiper';
 import Footer from './Footer';
 

@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () => {
 	return (
 		<>
-			<footer className="bg-[#151418] w-full px-4 py-8 text-white md:px-48">
+			<footer className="bg-[#151418] w-full px-4 py-4 text-white md:px-48">
 				<div className="p-4 flex flex-col items-center md:items-start">
 					<img
 						src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/64ff5f8243d7107029f71cea_OAK%20Logo%20vector.svg"
@@ -22,11 +22,11 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="border-b-2 border-b-[#656769] mb-6"></div>
-				<div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+				<div className="grid grid-cols-1 md:grid-cols-5 gap-6 ml-4 p-4">
 					<div className="flex flex-col gap-6 sitemap">
 						<strong className="text-2xl">Sitemap</strong>
 						<div className="border-b w-1/2 border-b-gray-500"></div>
-						<ul className="flex flex-col gap-2 text-xl text-[#919497]">
+						<ul className="flex flex-col gap-2  text-[#919497]">
 							<a href="">Home</a>
 							<a href="">Contact</a>
 							<a href="">Services</a>
@@ -36,7 +36,7 @@ const Footer = () => {
 					<div className="flex flex-col gap-6 legal">
 						<strong className="text-2xl">Legal</strong>
 						<div className="border-b w-1/2 border-b-gray-500"></div>
-						<ul className="flex flex-col gap-2 text-xl text-[#919497]">
+						<ul className="flex flex-col gap-2  text-[#919497]">
 							<a href="">Privacy policy</a>
 							<a href="">Use of cookies</a>
 							<a href="">Terms of use</a>
@@ -46,7 +46,7 @@ const Footer = () => {
 					<div className="flex flex-col gap-6 clients">
 						<strong className="text-2xl">OAK Clients</strong>
 						<div className="border-b w-1/2 border-b-gray-500"></div>
-						<ul className="flex flex-col gap-2 text-xl text-[#919497]">
+						<ul className="flex flex-col gap-2  text-[#919497]">
 							<a href="">OAK Insights login</a>
 							<a href="">Leave a review</a>
 						</ul>
@@ -63,6 +63,7 @@ const Footer = () => {
 								hello@oak-network.com
 							</a>
 						</div>
+						<div className="border-b border-b-gray-500"></div>
 						<div className="phone">
 							<div>Phone</div>
 							<a
@@ -88,7 +89,7 @@ const Footer = () => {
 							Copyright © 2024 OAK Network Ltd. All Rights Reserved
 						</div>
 						<div className="mt-6">
-							<ul className="flex justify-center gap-4">
+							<ul className="flex items-center justify-center gap-4">
 								<li>
 									<a
 										href="https://twitter.com/TheOAKNetwork"
