@@ -5,12 +5,12 @@ export const Route = createFileRoute('/energy-management-system')({
 });
 
 import React from 'react';
-import SwiperCard from '../components/energy-management-system/SwiperCard';
+import Header from '../components/Header';
 
 export default function EnergyManagementSystem() {
 	return (
-		<div className="h-20">
-			<SwiperCard />
-		</div>
+		<>
+			<Header />
+		</>
 	);
 }
