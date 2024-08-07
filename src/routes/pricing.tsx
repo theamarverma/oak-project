@@ -25,10 +25,10 @@ export default function Pricing() {
 						</p>
 					</div>
 				</div>
-				<div className="bg-white h-full w-full relative rounded-t-2xl mt-10">
+				<div className="bg-white h-full w-full  relative rounded-t-2xl mt-10">
 					<PricingCardContainer />
 
-					<div className="accordion md:mx-52 pt-[1600px] md:pt-[600px] ">
+					<div className="accordion md:mx-52 mx-4 pt-[1600px] md:pt-[600px] ">
 						<div className="flex flex-col justify-center items-center text-black gap-4 mb-10">
 							<div className="font-mono font-semibold text-xl">
 								FREQUENTLY ASKED QUESTIONS
