@@ -23,7 +23,7 @@ const PricingCard = ({
 	return (
 		<div className={`${textColor} z-50`}>
 			<div
-				className={`card w-1/2 md:w-1/4 md:min-h-[615px] shadow-xl min-w-[393px]  ${bg} rounded-xl`}
+				className={`card md:w-1/2  md:min-h-[615px] shadow-xl min-w-[363px] md:min-w-[393px]  ${bg} rounded-xl`}
 			>
 				<div className="flex flex-col gap-6  p-6 mx-4">
 					<h1 className="md:text-4xl text-2xl font-bold">{title}</h1>

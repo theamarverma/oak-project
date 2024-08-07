@@ -90,7 +90,7 @@ const PricingCardContainer = () => {
 
 	return (
 		<>
-			<div className="card-container md:mx-52 grid grid-cols-1 ml-2 md:grid-cols-3 gap-3 absolute inset-x-0 -top-40 ">
+			<div className="card-container md:mx-52 grid grid-cols-1 mx-8 md:grid-cols-3 gap-3 absolute inset-x-0 -top-40 ">
 				<div className=" ">
 					<PricingCard
 						title="Compilance Reporting"
