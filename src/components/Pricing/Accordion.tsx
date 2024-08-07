@@ -41,7 +41,7 @@ const Accordion = () => {
 	const seventh =
 		'Yes, our aim is to help businesses reduce and optimise their energy consumption while achieving carbon neutrality through microgeneration and storage. Green generation plays a crucial role in achieving this goal. Our dashboard will recommend the most suitable clean tech based on your consumption data.';
 	const itemClasses = {
-		content: 'text-xl px-2',
+		content: 'text-xl ',
 		title: 'text-2xl font-bold',
 	};
 	return (
