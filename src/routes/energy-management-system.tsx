@@ -71,7 +71,7 @@ export default function EnergyManagementSystem() {
 							<div className="inner-container md:mx-32 mx-8  ">
 								<div className="inner-container  ">
 									<AdvancedTracking />
-									<div className="bg-[#EEF4FD] md:w-[1304px] w-[600px] h-[1200px] md:h-[807px] rounded-3xl  place-content-center">
+									<div className="bg-[#EEF4FD] md:w-[1304px] h-[1200px] md:h-[807px] rounded-3xl  place-content-center">
 										<InDepthMonitoring />
 									</div>
 

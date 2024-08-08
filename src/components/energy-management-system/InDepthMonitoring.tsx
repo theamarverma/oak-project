@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 const InDepthMonitoring = () => {
 	return (
 		<>
-			<div className="grid md:grid-cols-2 grid-cols-1 md:text-left text-center gap-8 p-10 ">
+			<div className="grid md:grid-cols-2 grid-cols-1 md:text-left text-center gap-16 md:gap-8 p-10 ">
 				<div className="inner-container max-w-[571px] mt-[-33px] md:mt-0 order-2 md:order-1">
 					<div className="relative">
 						<div className="inner-container">
@@ -12,7 +12,7 @@ const InDepthMonitoring = () => {
 								<img
 									src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6601a390423db935319de966_OAKy%20Pose%202.png"
 									alt=""
-									className="object-cover md:w-full w-[75%] h-full"
+									className="object-cover md:w-full h-full"
 								/>
 							</div>
 						</div>
@@ -20,7 +20,7 @@ const InDepthMonitoring = () => {
 					</div>
 				</div>
 				<div className="inner-container max-w-[570px] text-neutral-800 order-1 md:order-2 ">
-					<div className="flex items-center gap-4 mb-6 ">
+					<div className="flex items-center justify-center md:justify-start gap-4 mb-6 ">
 						<img
 							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/65031bee6061ee6a0358bdd5_OAK%20Screen%20Notif%20Icon%20Thick.svg"
 							alt="OAK Screen Notification Thick"
@@ -30,7 +30,7 @@ const InDepthMonitoring = () => {
 							In-depth monitoring
 						</div>
 					</div>
-					<div className="flex flex-col items-start gap-6">
+					<div className="flex flex-col md:items-start items-center gap-6">
 						<h2 className="text-4xl font-bold">
 							How does an Energy Management System work?
 						</h2>
