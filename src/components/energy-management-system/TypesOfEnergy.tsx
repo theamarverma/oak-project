@@ -3,9 +3,9 @@ import React from 'react';
 const TypesOfEnergy = () => {
 	return (
 		<>
-			<div className="grid md:grid-cols-2 grid-cols-1 gap-8 items-center mt-32 text-left mb-[155px] md:mb-0 ">
+			<div className="grid md:grid-cols-2 grid-cols-1 gap-8 items-center mt-32 md:text-left text-center mb-[155px] md:mb-0 ">
 				<div className="inner-container max-w-[554px] text-neutral-800 ">
-					<div className="flex gap-2  mb-6 ">
+					<div className="flex gap-2 justify-center items-center md:justify-start mb-6 ">
 						<img
 							src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/65031d5793906960e211c523_OAK%20Stats%20Icon%20Thick.svg"
 							alt="OAK Stats Icon Thick"
@@ -82,7 +82,7 @@ const TypesOfEnergy = () => {
 								/>
 							</div>
 						</div>
-						<div className="absolute -bottom-10 md:w-1/3 left-0">
+						<div className="absolute -bottom-10 md:w-1/3 w-[200px] left-0">
 							<div className="image-wrapper image-above rounded-[24px]">
 								<img
 									src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/65268b5a6ed1035b12a41eab_OAK%20Alert%20Email%20Notif%202.webp"

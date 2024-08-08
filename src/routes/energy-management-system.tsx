@@ -54,7 +54,7 @@ export default function EnergyManagementSystem() {
 						</div>
 					</div>
 				</div>
-				<div className="advance-tracking h-[2900px] w-full bg-[#f1f1f1] relative overflow-hidden rounded-[40px]">
+				<div className="advance-tracking h-[4136px] md:h-[2900px] w-full bg-[#f1f1f1] relative overflow-hidden rounded-[40px]">
 					<div className="blue-circle-bg z-[-1] bg-blue-circle-bg filter-custom-blue w-[350px] h-[350px] absolute inset-y-[-9%] inset-x-[9%]"></div>
 
 					<div className="slight-bg z-[-2] opacity-[.17] bg-slight-bg w-full h-full absolute inset-0"></div>
