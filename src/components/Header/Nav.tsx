@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import Button from './Button/Button';
+import Button from '../Button/Button';
 import { Link } from '@tanstack/react-router';
 
 const NavLinks: React.FC = () => {
@@ -34,7 +34,10 @@ const Nav: React.FC = () => {
 				</div>
 
 				<div className="sm:hidden">
-					<button onClick={toggleHandler}>
+					<button
+						className="text-white"
+						onClick={toggleHandler}
+					>
 						{isOpen ? <X size={24} /> : <Menu size={24} />}
 					</button>
 				</div>

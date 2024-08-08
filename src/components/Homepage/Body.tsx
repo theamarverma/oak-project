@@ -1,6 +1,6 @@
 import React from 'react';
 import Benefits from './Benefits';
-import Button from './Button/Button';
+import Button from '../Button/Button';
 import InDepthMonitor from './InDepthMonitor';
 import ComplianceSimplified from './ComplianceSimplified';
 import Modal from './Modal';

@@ -6,13 +6,11 @@ export const Route = createFileRoute('/energy-management-system')({
 });
 
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 import Button from '../components/Button/Button';
 import AdvancedTracking from '../components/energy-management-system/AdvancedTracking';
 import InDepthMonitoring from '../components/energy-management-system/InDepthMonitoring';
 import TypesOfEnergy from '../components/energy-management-system/TypesOfEnergy';
-import Benifits from '../components/energy-management-system/Benefits';
-import Benefits from '../components/energy-management-system/Benefits';
 
 export default function EnergyManagementSystem() {
 	return (

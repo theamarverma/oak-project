@@ -1,9 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router';
 import '../index.css'; // Ensure this imports the file where Tailwind is setup
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 import PricingCardContainer from '../components/Pricing/PricingCardContainer';
 import Accordion from '../components/Pricing/Accordion';
-import Footer from '../components/Footer';
+import Footer from '../components/Homepage/Footer';
 
 export const Route = createFileRoute('/pricing')({
 	component: Pricing,
