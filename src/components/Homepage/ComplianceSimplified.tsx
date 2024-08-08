@@ -22,7 +22,7 @@ const ComplianceSimplified: React.FC = () => {
 					<div className="mt-4">
 						<Button
 							title="Get Started"
-							btnSize="py-4 px-8"
+							icon="pi pi-arrow-up-right"
 						/>
 					</div>
 				</div>

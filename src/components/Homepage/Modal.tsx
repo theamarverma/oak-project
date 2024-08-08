@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import { Play } from 'lucide-react';
-
+import './modal.css';
 const Modal = () => {
 	const [visible, setVisible] = useState(false);
 

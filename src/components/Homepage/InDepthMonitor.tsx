@@ -34,7 +34,7 @@ const InDepthMonitor: React.FC = () => {
 					<div className="mt-4">
 						<Button
 							title="Find Out More"
-							btnSize="py-4 px-8"
+							icon="pi pi-arrow-up-right"
 						/>
 					</div>
 				</div>
