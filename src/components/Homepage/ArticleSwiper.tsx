@@ -22,7 +22,7 @@ export const ArticleSwiper = () => {
 		<>
 			<div className="bg-[#151418] h-full  w-full">
 				<div className="text-white ml-10 md:ml-48 pt-60">
-					<h4 className="font-semibold font-mono text-[#03EFFE]">
+					<h4 className="font-semibold font-mono tracking-wider text-[#03EFFE]">
 						ARTICLE & NEWS
 					</h4>
 

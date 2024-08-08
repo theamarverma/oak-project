@@ -11,8 +11,14 @@ import Button from '../components/Button/Button';
 import AdvancedTracking from '../components/energy-management-system/AdvancedTracking';
 import InDepthMonitoring from '../components/energy-management-system/InDepthMonitoring';
 import TypesOfEnergy from '../components/energy-management-system/TypesOfEnergy';
-import Card from '../components/energy-management-system/Card';
+
 import CardWrapper from '../components/energy-management-system/CardWrapper';
+
+import BenefitsCard from '../components/energy-management-system/BenefitsCard';
+import FAQSection from '../components/energy-management-system/FAQSection';
+
+import Footer from '../components/Homepage/Footer';
+import { ArticleSwiper } from '../components/Homepage/ArticleSwiper';
 
 export default function EnergyManagementSystem() {
 	return (
@@ -93,7 +99,49 @@ export default function EnergyManagementSystem() {
 						</div>
 					</div>
 				</section>
+				<div className="h-full ">
+					<div className="flex flex-col justify-center items-center md:mx-96 mx-8 my-60">
+						<div className="flex flex-col gap-4 justify-center text-center max-w-3xl p-10">
+							<strong className="tracking-wide">BENEFITS</strong>{' '}
+							<h1 className="text-3xl font-semibold">
+								Manage Your Energy Usage with Real-Time Data With Real-time data
+							</h1>
+							<p>
+								it takes all the guess work out of the picture, as you can now
+								make decisions based on live consumption. At OAK, we take care
+								of all the data crunching for you so that you can focus on
+								taking action to improve energy efficiency, save on energy costs
+								and ensure optimal operation of your site with ease of mind.
+							</p>
+						</div>
+
+						<div className="mt-5 flex flex-col md:flex-row gap-8 ">
+							<BenefitsCard
+								titleColor="text-white"
+								title="Live Overview of your consumption"
+								desc="With OAK, you will know exactly how much energy is being consumed by each venue of your business down to the equipment within that venue. Providing you a digital twin of your business and leaving no stone unturned. We also provide live alerting based on our AI algorithm which identifies and notifies you of anomalies and what is the most likely cause with a proposed action."
+								imageUrl="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6601812e621cb13c0e74bf2f_Laptop%20with%20Alert.png"
+								bg="bg-[#28292B]"
+								imgSize="w-full h-auto "
+							/>
+							<BenefitsCard
+								titleColor="text-black"
+								title="Make informed decisions where to invest"
+								desc="Accurate Real-time data provides the foundation for data backed decisions, not only for improving efficiency but also for CAPEX upgrades. This includes everything from: Solar panels, voltage optimiser, LED, Battery storage, Heat pumps etc. We provide you with the data to make the right decision for your business along with financing options to make your ESG journey more budget friendly."
+								imageUrl="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6526952c8e0e6553b65202c3_IMG_4160.jpg"
+								bg="bg-[#EFF4F8]"
+								imgSize="w-full h-auto "
+							/>
+						</div>
+
+						<div className="tracking-wider text-lg font-bold  mt-32">FAQ</div>
+						<div className="text-4xl font-bold mt-8 mb-10">FAQ about EMS</div>
+						<FAQSection />
+					</div>
+				</div>
 			</div>
+			<ArticleSwiper />
+			<Footer />
 		</>
 	);
 }
