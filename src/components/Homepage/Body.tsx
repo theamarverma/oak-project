@@ -34,7 +34,9 @@ const Body: React.FC = () => {
 						<div className="mt-6">
 							<Button
 								title="Book a Demo"
-								btnSize="py-4 px-6"
+								color="black"
+								icon="pi pi-arrow-up-right"
+								css=" bg-[#21D5FE] w-48 h-16 font-bold p-8 rounded-lg"
 							/>
 						</div>
 					</div>
