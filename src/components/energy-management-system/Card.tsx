@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({
 		<div className=" md:mx-auto md:max-w-7xl rounded-2xl mx-4 p-2 md:p-0  bg-white md:min-h-[700px] ">
 			<div className="card-larger-card-content p-4  md:px-36 md:py-24">
 				<div className="flex flex-col gap-7 items-start ">
-					<strong className="capitalize font-mono text-lg tracking-wider text-[#06EEFE]">
+					<strong className="capitalize font-mono md:text-lg tracking-wider text-[#06EEFE]">
 						{subtitle}
 					</strong>
 					<div className="flex justify-between w-full">
