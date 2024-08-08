@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import Button from './Button';
+import Button from './Button/Button';
 import { Link } from '@tanstack/react-router';
 
 const NavLinks: React.FC = () => {
@@ -28,7 +28,8 @@ const Nav: React.FC = () => {
 					<NavLinks />
 					<Button
 						title="Book a Demo"
-						btnSize="py-2 px-4"
+						css="text-black bg-[#21D5FE] w-32 h-10 font-bold p-2 rounded-lg"
+						color="black"
 					/>
 				</div>
 

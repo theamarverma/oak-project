@@ -20,7 +20,7 @@ const Demo = () => {
 								rel="noopener noreferrer"
 							>
 								<Button
-									className="w-40 h-12 md:w-48 md:h-16 p-2 md:p-4 bg-black rounded-lg"
+									className="w-40 h-12 md:w-48 md:h-16 p-2 md:p-8 bg-black rounded-lg"
 									label="Book a Demo"
 									icon="pi pi-arrow-up-right"
 									iconPos="right"
