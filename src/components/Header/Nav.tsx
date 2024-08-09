@@ -6,10 +6,10 @@ import { Link } from '@tanstack/react-router';
 const NavLinks: React.FC = () => {
 	return (
 		<>
+			<Link to="/">Home</Link>
 			<Link to="/pricing">Pricing</Link>
 			<Link to="/energy-management-system">Energy Management System</Link>
 			<Link to="/contact">Contact</Link>
-			<Link to="/blog">Blog</Link>
 		</>
 	);
 };

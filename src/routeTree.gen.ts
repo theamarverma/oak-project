@@ -16,7 +16,6 @@ import { Route as rootRoute } from './routes/__root'
 import { Route as PricingImport } from './routes/pricing'
 import { Route as EnergyManagementSystemImport } from './routes/energy-management-system'
 import { Route as ContactImport } from './routes/contact'
-import { Route as BlogImport } from './routes/blog'
 
 // Create Virtual Routes
 
@@ -39,11 +38,6 @@ const ContactRoute = ContactImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
-const BlogRoute = BlogImport.update({
-  path: '/blog',
-  getParentRoute: () => rootRoute,
-} as any)
-
 const IndexLazyRoute = IndexLazyImport.update({
   path: '/',
   getParentRoute: () => rootRoute,
@@ -58,13 +52,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexLazyImport
-      parentRoute: typeof rootRoute
-    }
-    '/blog': {
-      id: '/blog'
-      path: '/blog'
-      fullPath: '/blog'
-      preLoaderRoute: typeof BlogImport
       parentRoute: typeof rootRoute
     }
     '/contact': {
@@ -95,7 +82,6 @@ declare module '@tanstack/react-router' {
 
 export const routeTree = rootRoute.addChildren({
   IndexLazyRoute,
-  BlogRoute,
   ContactRoute,
   EnergyManagementSystemRoute,
   PricingRoute,
@@ -110,7 +96,6 @@ export const routeTree = rootRoute.addChildren({
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/blog",
         "/contact",
         "/energy-management-system",
         "/pricing"
@@ -118,9 +103,6 @@ export const routeTree = rootRoute.addChildren({
     },
     "/": {
       "filePath": "index.lazy.tsx"
-    },
-    "/blog": {
-      "filePath": "blog.tsx"
     },
     "/contact": {
       "filePath": "contact.tsx"
