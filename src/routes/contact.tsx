@@ -17,9 +17,9 @@ export default function Contact() {
 		<>
 			<div className="bg-black">
 				<Header />
-				<div className="md:min-h-[800px] min-h-[700px] w-full flex justify-center items-center text-white">
-					<div className="md:w-1/2 flex flex-col text-center gap-4 p-2 md:mb-4">
-						<strong className="md:text-7xl text-5xl p-4 md:p-8 ">
+				<div className="md:min-h-[800px] min-h-[500px] w-full flex justify-center items-center text-white">
+					<div className="md:w-1/2 flex flex-col text-center p-2 md:mb-4">
+						<strong className="md:text-7xl text-5xl p-4 md:p-8 pb-48">
 							Contact
 						</strong>
 					</div>
