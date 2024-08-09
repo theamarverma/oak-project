@@ -12,12 +12,14 @@
 	"dependencies": {
 		"@emotion/react": "^11.13.0",
 		"@emotion/styled": "^11.13.0",
+		"@hookform/resolvers": "^3.9.0",
 		"@mui/icons-material": "^5.16.6",
 		"@mui/material": "^5.16.6",
 		"@nextui-org/accordion": "^2.0.38",
 		"@nextui-org/react": "^2.4.6",
 		"@nextui-org/system": "^2.2.5",
 		"@nextui-org/theme": "^2.2.9",
+		"@tanstack/react-form": "^0.29.0",
 		"@tanstack/react-router": "^1.46.7",
 		"@types/jest": "^29.5.12",
 		"@types/node": "^22.1.0",
@@ -30,9 +32,11 @@
 		"react-bootstrap": "^2.10.4",
 		"react-calendar": "^5.0.0",
 		"react-dom": "^18.3.1",
+		"react-hook-form": "^7.52.2",
 		"react-multi-carousel": "^2.8.5",
 		"swiper": "^11.1.9",
-		"typescript": "^5.5.4"
+		"typescript": "^5.5.4",
+		"zod": "^3.23.8"
 	},
 	"devDependencies": {
 		"@tanstack/router-devtools": "^1.46.7",
