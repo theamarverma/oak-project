@@ -35,7 +35,7 @@ const Nav: React.FC = () => {
 
 				<div className="sm:hidden">
 					<button
-						className="text-white"
+						className="text-white mr-2"
 						onClick={toggleHandler}
 					>
 						{isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -44,7 +44,7 @@ const Nav: React.FC = () => {
 			</nav>
 			{/* for mobile hamburger menu */}
 			{isOpen && (
-				<div className="flex basis-full gap-2 flex-col text-white items-center">
+				<div className="flex basis-full  gap-2 flex-col text-white items-center">
 					<NavLinks />
 				</div>
 			)}
