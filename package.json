@@ -20,6 +20,7 @@
 		"@nextui-org/system": "^2.2.5",
 		"@nextui-org/theme": "^2.2.9",
 		"@tanstack/react-form": "^0.29.0",
+		"@tanstack/react-location": "^3.7.4",
 		"@tanstack/react-router": "^1.46.7",
 		"@types/jest": "^29.5.12",
 		"@types/node": "^22.1.0",

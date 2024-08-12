@@ -60,14 +60,14 @@ export default function EnergyManagementSystem() {
 						</div>
 					</div>
 				</div>
-				<div className="advance-tracking h-[4136px] md:h-[2900px] w-full bg-[#f1f1f1] relative overflow-hidden rounded-[40px]">
-					<div className="blue-circle-bg z-[-1] bg-blue-circle-bg filter-custom-blue w-[350px] h-[350px] absolute inset-y-[-9%] inset-x-[9%]"></div>
+				<div className="advance-tracking h-[4136px] md:h-[2900px] w-full bg-[#f1f1f1] relative overflow-hidden">
+					<div className="z-[-1] w-[350px] h-[350px] absolute inset-y-[-9%] inset-x-[9%]  contrast-[133%] saturate-[178%] blur-3xl"></div>
 
-					<div className="slight-bg z-[-2] opacity-[.17] bg-slight-bg w-full h-full absolute inset-0"></div>
+					<div className="z-[-2] opacity-[0.17] bg-[#ffffffc9] bg-[linear-gradient(4deg,_#ffffff8f,_#98f9ff00_76%),_linear-gradient(21deg,_#dc2b2b33,_#fff0_51%),_linear-gradient(211deg,_#4eacfe80,_#fff0_27%),_linear-gradient(#fff,_#ecf2ff00_26%)] w-full h-full absolute inset-0"></div>
 
-					<div className="blurry-bg-images z-[-1] opacity-[.4] filter-saturate-178 filter-blur-36 bg-blurry-bg bg-no-repeat bg-[length:40%,auto,auto,100%] bg-center  w-full h-full absolute inset-0"></div>
+					<div className=" z-[-1] opacity-[0.4] saturate-[178%] blur-lg w-full h-full absolute inset-0 bg-no-repeat bg-[url('https://cdn.prod.website-files.com/64ff275…/651b596…_OAK%20Recent%20Alerts.webp'),_url('https://cdn.prod.website-files.com/64ff275…/650a655…_OAK%20Thumbnail.jpeg'),_url('https://cdn.prod.website-files.com/64ff275…/651b43e…_OAK%20Dashboard.webp'),_url('https://cdn.prod.website-files.com/64ff275…/651b579…_OAK%20Alert%20Graph.webp')] bg-[50%,50%_100%,50%_0,50%] bg-[40%,auto,auto,100%]"></div>
 
-					<div className="slight-bg-front z-[-1] opacity-[.99] filter-contrast-107-saturate-200 filter-blur-150 bg-slight-bg-front w-[130%] h-[113%] absolute inset-[-12%_0_0_-15%]"></div>
+					<div className="z-[-1] opacity-[0.99] contrast-[107%] saturate-[200%] blur-lg bg-[linear-gradient(#dadee0d6,_#ffffffab_28%,_#93a4ad4d)] w-[130%] h-[113%] absolute inset-y-[-12%] inset-x-[-15%]"></div>
 
 					<section
 						id="why"
