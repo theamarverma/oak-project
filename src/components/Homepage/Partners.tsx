@@ -3,12 +3,12 @@ import React from 'react';
 const Partners = () => {
 	return (
 		<>
-			<h1 className="flex justify-center items-center font-semibold text-4xl">
+			<h1 className="flex justify-center items-center mt-5 md:mt-2 font-semibold text-4xl">
 				Partners
 			</h1>
-			<div className="grid grid-cols-3 md:grid-cols-6 p-16 gap-16 items-center grayscale">
+			<div className="grid grid-cols-3 md:grid-cols-6 md:p-16 p-8 gap-16 items-center grayscale w-full mx-2 md:mr-10">
 				<img
-					className=" "
+					className="min-w- md:w-full "
 					src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6509c7a8653884bf52af4f94_IMG_062D94387ADD-1-p-500.jpeg"
 					alt="synerLeap"
 				/>
@@ -18,7 +18,7 @@ const Partners = () => {
 					alt="greentech"
 				/>
 				<img
-					className="md:h-36 ml-10"
+					className=""
 					src="https://cdn.prod.website-files.com/64ff275e33673d684f459532/6502ff145aa9cdd684a0690c_ORB%20Member%20Partner%20Logo.webp"
 					alt="orb"
 				/>

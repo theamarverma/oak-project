@@ -74,7 +74,7 @@ const Body: React.FC = () => {
 			<div className=" sm:px-6 lg:px-8 py-12 rounded-b-2xl bg-[#dbecf4]">
 				<Modal />
 			</div>
-			<div className="w-full relative overflow-hidden bg-white p-8 ">
+			<div className="w-full overflow-hidden bg-white md:p-8 p-2">
 				<Partners />
 			</div>
 			<Demo />
